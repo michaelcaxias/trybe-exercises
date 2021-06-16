@@ -1,22 +1,12 @@
 Utilizarei este repositório para desenvolver exercícios durante o período de estudos na [Trybe](https://www.betrybe.com/), uma escola de programação que ensina a **_programar_**, a **_aprender_** e a **_trabalhar_**.
 
-## Fundamentos do Desenvolvimento Web 
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-- **Bloco 1: Introdução - Unix & Shell**
+## Fundamentos do Desenvolvimento Web ✔️
 
-- [x] 1-3: _Unix & Bash - Part 1_
-- [x] 1-4: _Unix & Bash - Part 2_
+**Bloco 1: Introdução - Unix & Shell** ✔️
 
-- **Bloco 2: Git & GitHub**
+**Bloco 2: Git & GitHub** ✔️
 
-- [x] 2-1: _O que é e para que serve?_
-- [x] 2-2: _Entendendo os comandos_
-- [x] 2-3: _Internet - Entendendo como ela funciona_
-
-- **Bloco 3: Introdução - HTML & CSS**
-
-- [x] 3-1: _HTML & CSS - Estruturas de página_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
+**Bloco 3: Introdução - HTML & CSS** 🔄 _(em progresso)_
 - [ ] 3-5: _Projeto Lessons Learned_
