@@ -1,1 +1,1 @@
-Utilizarei este repositório para desenvolver meus exercícios da Trybe
+Utilizarei este repositório para desenvolver exercícios durante o período de estudo na Trybe
