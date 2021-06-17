@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+body {
+    font-size: 16px;
+}
+ul {
+    font-size: 30px;
+}
+#amarelo {
+    background-color: yellow;
+    text-align: center;
+}
+#vermelho {
+    background-color: red;
+    text-align: center;
+}
+#marrom {
+    background-color: brown;
+    text-align: center;
+}
