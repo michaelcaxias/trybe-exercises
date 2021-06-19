@@ -28,7 +28,6 @@ div:nth-of-type(5) {
 
 }
 
-
-h3:nth-of-type(2n+1) {
+h3:nth-child(odd) {
     font-style: italic;
 }
