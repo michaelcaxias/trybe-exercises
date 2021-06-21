@@ -76,3 +76,7 @@ footer {
     text-align: center;
     color: #ffff
 }
+
+.video {
+    border-radius: 20px;
+}
