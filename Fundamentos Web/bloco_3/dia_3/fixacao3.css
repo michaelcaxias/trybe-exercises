@@ -1,0 +1,12 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: greenyellow;
+    list-style: none;
+}
+
+li:active {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
