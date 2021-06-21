@@ -1,0 +1,18 @@
+.aside {
+    text-align: center;
+    background-color: aqua;
+    display: inline-block;
+    margin-left: 960px;
+}
+
+.aside-img {
+    width: 300px;
+}
+
+.description-aside {
+    text-align: left;
+}
+
+.first-article {
+    
+}
