@@ -6,3 +6,6 @@ for (let index = 0; index < numbers.length; index += 1) {
     sum += numbers[index]
     console.log(sum)
 }
+//ex 03
+let arithmeticAverage = sum / numbers.length
+console.log("A média aritmética é: " + arithmeticAverage)
