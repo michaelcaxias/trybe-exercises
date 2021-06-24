@@ -8,8 +8,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 **Bloco 2: Git & GitHub** ✔️
 
-**Bloco 3: Introdução - HTML & CSS** 🔄 _(em progresso)_
-- [ ] 3-5: _Projeto Lessons Learned_
+**Bloco 3: Introdução - HTML & CSS** ✔️
+- [X] 3-5: _Projeto Lessons Learned_
 
 **Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação**
 - [ ] 4-5: _Projeto - Playground Functions_
