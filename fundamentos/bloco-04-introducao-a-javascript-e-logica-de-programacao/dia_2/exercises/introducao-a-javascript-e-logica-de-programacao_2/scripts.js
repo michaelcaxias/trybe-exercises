@@ -9,3 +9,11 @@ for (let index = 0; index < numbers.length; index += 1) {
 //ex 03
 let arithmeticAverage = sum / numbers.length
 console.log("A média aritmética é: " + arithmeticAverage)
+//ex 04
+if(arithmeticAverage > 20){
+    console.log("valor maior que 20")
+}
+else{
+    console.log("valor menor ou igual a 20")
+}
+//ex 05
