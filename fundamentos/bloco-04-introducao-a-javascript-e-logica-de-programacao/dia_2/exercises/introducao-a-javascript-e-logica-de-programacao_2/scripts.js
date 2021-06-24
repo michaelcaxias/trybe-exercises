@@ -44,3 +44,10 @@ else {
     console.log("A quantidade de valores impares é: " + oddCount);
 }
 //ex 07
+let lowerNumber = numbers[0];
+for(let indexValue = 1; indexValue < numbers.length; indexValue += 1){
+    if(numbers[indexValue] < lowerNumber){
+        lowerNumber = numbers[indexValue]
+    }
+}
+console.log("O menor número é: "+ lowerNumber)
