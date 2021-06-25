@@ -1,6 +1,10 @@
 //Exercicios JS
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+//ex 01
 
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+for(let walk = 0; walk < numbers.length; walk +=1) {
+    //console.log(numbers[walk])
+}
 //ex 02
 let sum = 0;
 for (let index = 0; index < numbers.length; index += 1) {
@@ -22,7 +26,7 @@ else{
 
 //ex 05
 let higherNumber = numbers[0];
-for(let indexValue = 1; indexValue < numbers.length; indexValue += 1){
+for(let indexValue = 0; indexValue < numbers.length; indexValue += 1){
     if(numbers[indexValue] > higherNumber){
         higherNumber = numbers[indexValue]
     }
@@ -64,5 +68,5 @@ console.log(listArray)
 let division = 0;
 for(indexDivision = 0; indexDivision < listArray.length; indexDivision+=1){
     division = listArray[indexDivision] / 2
+    console.log("O resultado da divisão por 2 é: " + division)
 }
-console.log("O resultado da divisão por 2 é: " + division)
