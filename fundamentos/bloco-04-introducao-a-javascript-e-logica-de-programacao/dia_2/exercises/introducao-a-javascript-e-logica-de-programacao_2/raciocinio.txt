@@ -1,0 +1,59 @@
+Exercicio 1 -
+Definir o Array
+Caminhar por cada posição do Array
+Mostrar na tela o resultado do trajedo utilizado o Array e mostrando cada posição.
+
+Exercicio 2 -
+Definir o Array
+Criar uma variavel soma com a primeira posição do Array
+Caminhar por cada posição do Array
+Utilizar a variavel soma para somar ela mesma com a posição atual do for e armazenar o resultado nela mesma
+Mostrar na tela o resultado da soma
+
+Exercicio 3 -
+Criar uma variável mediaAritmetica que irá pegar o resultado da soma de todos os elementos e dividir pela quantidade de elementos
+Mostrar na tela o resultado dessa variável
+
+Exercicio 4 -
+Caso o resultado da mediaAritmetica seja maior que 20
+Mostrará na tela "valor maior que 20"
+Caso o resultado seja menor ou igual a 20
+Mostrará na tela "valor menor ou igual a 20"
+
+Exercicio 5 -
+Definir uma variável POSIÇAO que estará na primeira posição do Array (valor igual a 0)
+Utilizar o for para percorrer o trajeto e incrementar caso seja menor que o numero de elementos total
+Se o valor da variável POSIÇAO for menor que a posição atual do Array
+Faça com que a POSIÇAO passe a ser valor da posição atual do Array
+Imprimir na tela o resultado da POSIÇAO
+
+Exercicio 6 -
+Definir uma variavel IMPARES com o valor 0 para armazenar a quantidade de valores ímpares
+Utilizar o for para percorrer o trajeto e incrementar caso seja menor que o numero de elementos total
+Se o valor da posição atual não for divisivel por 2
+A variavel IMPARES somará o valor atual dela com 1
+Fora do laço de repetição -
+Se o valor da variavel IMPARES for maior que 0
+Imprimirá o resultado na tela
+Se a variavel for igual a 0
+Imprimirá nenhum valor encontrado
+
+Exericio 7 -
+Definir uma variável POSIÇAO que estará na primeira posição do Array (valor igual a 0)
+Utilizar o for para percorrer o trajeto e incrementar caso seja menor que o numero de elementos total
+Se o valor da variável POSIÇAO for maior que a posição atual do Array
+Faça com que a POSIÇAO passe a ser valor da posição atual do Array
+Imprimir na tela o resultado da POSIÇAO
+
+Exercicio 8 -
+Definir um Array vazio que armazenará o conteudo a frente
+Utilizar o for para percorrer o trajeto começando de 1 e incrementando caso seja menor ou igual a 25
+Empurrará o valor atual dentro do Array que estava vazio
+Fora do laço de repetição - 
+Imprimir o valor do Array
+
+Exercicio 9 -
+Definir uma variável chamada DIVISÃO
+Utilizar o for para percorrer o trajeto e incrementar caso seja menor que o numero de elementos total
+A DIVISÃO receberá o valor da posição atual do Array anterior dividido por 2
+Imprimirá na tela a variável anterior com o resultado
