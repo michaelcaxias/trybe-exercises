@@ -1,8 +1,11 @@
 //ex02
 console.log("EXERCICIO 2")
+
+let n = 5;
 let line = "";
-for (let index = 0; n > index; index +=1){
-    let asterisk = "*"
-    line = line + asterisk
+let symbol = "*";
+
+for (let index = 0; index < n; index +=1){
+    line = line + symbol
     console.log(line)
 }
