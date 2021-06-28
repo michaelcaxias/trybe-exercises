@@ -34,7 +34,11 @@ for(let chave in info) {
 
 console.log('===== 5 =====')
 
-console.log(info.personagem + ' e ' + patinhasInfo.personagem)
-console.log(info.origem + ' e ' + patinhasInfo.origem)
-console.log(info.nota + ' e ' + patinhasInfo.nota)
-console.log('Ambos recorrentes // Atenção para essa ultima linha!')
+for (let properties in info) {
+  if (properties === 'recorrente' && info.recorrente === 'Sim' && patinhasInfo.recorrente === 'Sim') {
+    console.log('Ambos recorrentes')
+  }
+  else {
+    console.log(info[properties] + ' e ' + patinhasInfo[properties])
+  }
+}
