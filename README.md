@@ -11,5 +11,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 3: Introdução - HTML & CSS** ✔️
 - [X] 3-5: _Projeto Lessons Learned_
 
-**Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação**
+**Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação** ✔️
 - [X] 4-5: _Projeto - Playground Functions_
+
+**Bloco 5: JavaScript: DOM, Eventos e Web Storage** 
+- [ ] 5-5: _Projeto - Arte com Pixels_
+- [ ] 5-6: _Projeto - Lista de Tarefas_
