@@ -35,6 +35,25 @@
         document.querySelector('#elementoOndeVoceEsta').nextSibling.nextSibling
         /* ----8---- */
         document.querySelector('#pai').childNodes[5]
+
+        /* Parte II do conteúdo */
+        /* ----1---- */
+        let father = document.querySelector('#pai')
+        let brother = document.createElement('div')
+        brother.setAttribute("id", "irmao")
+        father.appendChild(brother)
+        /* ----2---- */
+        let elementYouAre = document.querySelector('#elementoOndeVoceEsta')
+        let son = document.createElement('div')
+        son.setAttribute("id", "filho")
+        elementYouAre.appendChild(son)
+        /* ----3---- */
+        let firstSonFather = document.querySelector('#primeiroFilhoDoFilho')
+        let sonOfSon = document.createElement('div')
+        sonOfSon.setAttribute("id", "filhoDoPrimeiroFilhoDoFilho")
+        firstSonFather.appendChild(sonOfSon)
+         /* ----4---- */
+         document.querySelector('#filhoDoPrimeiroFilhoDoFilho').parentNode.parentNode.parentNode.childNodes[5]
       </script>
 </body>
 </html>
