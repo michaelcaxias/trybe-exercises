@@ -63,6 +63,7 @@ nav {
     padding: 20px;
     margin: 20px;
     clear: right;
+    box-shadow: 1px 5px 10px black;
 }
 .img-article {
     margin-left: 10px;
