@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="paiDoPai">
+        <div id="pai">
+          <div id="primeiroFilho"></div>
+          <div id="elementoOndeVoceEsta">
+            <div id="primeiroFilhoDoFilho"></div>
+            <div id="segundoEUltimoFilhoDoFilho"></div>
+          </div>
+          Atenção!
+          <div id="terceiroFilho"></div>
+          <div id="quartoEUltimoFilho"></div>
+        </div>
+      </div>
+      <script>
+        /* ----2---- */
+        let one = document.querySelector('#elementoOndeVoceEsta').parentNode
+        one.style.color = 'green'
+        /* ----3---- */
+        document.querySelector('#primeiroFilhoDoFilho').innerText = "Sou o primeiro filho do filho"
+        /* ----4---- */
+        document.querySelector('#pai').firstElementChild
+        /* ----5---- */
+        document.querySelector('#elementoOndeVoceEsta').previousElementSibling
+        /* ----6---- */
+        document.querySelector('#elementoOndeVoceEsta').nextSibling
+        /* ----7---- */
+        document.querySelector('#elementoOndeVoceEsta').nextSibling.nextSibling
+        /* ----8---- */
+        document.querySelector('#pai').childNodes[5]
+
+        /* Parte II do conteúdo */
+        /* ----1---- */
+        let father = document.querySelector('#pai')
+        let brother = document.createElement('div')
+        brother.setAttribute("id", "irmao")
+        father.appendChild(brother)
+        /* ----2---- */
+        let elementYouAre = document.querySelector('#elementoOndeVoceEsta')
+        let son = document.createElement('div')
+        son.setAttribute("id", "filho")
+        elementYouAre.appendChild(son)
+        /* ----3---- */
+        let firstSonFather = document.querySelector('#primeiroFilhoDoFilho')
+        let sonOfSon = document.createElement('div')
+        sonOfSon.setAttribute("id", "filhoDoPrimeiroFilhoDoFilho")
+        firstSonFather.appendChild(sonOfSon)
+         /* ----4---- */
+         document.querySelector('#filhoDoPrimeiroFilhoDoFilho').parentNode.parentNode.parentNode.childNodes[5]
+         /* Parte III do conteúdo */
+      </script>
+</body>
+</html>

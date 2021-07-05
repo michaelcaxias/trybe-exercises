@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      /* -----1----- */
+      let h1 = document.createElement('h1');
+      let body = document.body;
+      h1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      body.appendChild(h1);
+      /* -----2----- */
+      let div1 = document.createElement('div');
+      div1.setAttribute("class", "main-content");
+      body.appendChild(div1);
+      /* -----3----- */
+      let fatherDiv1 = document.querySelector('.main-content');
+      let div2 = document.createElement('div');
+      div2.setAttribute("class", "center-content");
+      div1.appendChild(div2);
+      /* -----4----- */
+      let fatherDiv2 = document.querySelector('.center-content');
+      let p = document.createElement('p');
+      p.innerText = "You and I have memories longer than the road that stretches out ahead";
+      fatherDiv2.appendChild(p);
+      /* -----5----- */
+      let div3 = document.createElement('div');
+      div3.setAttribute("class", "left-content");
+      fatherDiv1.appendChild(div3);
+      /* -----6----- */
+      let div4 = document.createElement('div');
+      div4.setAttribute("class", "right-content");
+      fatherDiv1.appendChild(div4);
+      /* -----7----- */
+      let fatherDiv3 = document.querySelector('.left-content');
+      let img = document.createElement('img');
+      img.className = 'small-image';
+      img.setAttribute("src", "https://picsum.photos/200");
+      fatherDiv3.appendChild(img);
+      /* -----8----- */
+      let fatherDiv4 = document.querySelector('.right-content');
+      let ul = document.createElement('ul');
+      fatherDiv4.appendChild(ul);
+
+      let fatherUl = document.querySelector('ul');
+      for (let index = 1; index <= 10; index++) {
+        let li = document.createElement('li');
+        li.innerText = index;
+        fatherUl.appendChild(li);
+      }
+      /* -----9----- */
+      for (let index = 1; index <= 3; index++) {
+        h3 = document.createElement('h3');
+        fatherDiv1.appendChild(h3);
+      }
+      /* -----1.1----- */
+      h1.className = 'title';
+      /* -----1.2----- */
+      for (let index = 3; index <= 5; index++) {
+        let childNodes = div1.childNodes[index];
+        childNodes.className = 'description';
+      }
+      /* -----1.3----- */
+      fatherDiv1.removeChild(fatherDiv3);
+      /* -----1.4----- */
+      fatherDiv4.setAttribute("style", "margin-right: auto")
+      /* -----1.5----- */
+      fatherDiv1.setAttribute("style", "background-color: green")
+      /* -----1.6----- */
+      let liNine = ul.childNodes[8];
+      let liTen = ul.childNodes[9];
+      ul.removeChild(liNine);
+      ul.removeChild(liTen);
+    </script>
+  </body>
+</html>
