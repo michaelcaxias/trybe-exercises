@@ -57,10 +57,55 @@
   </head>
   <body>
     <script>
+      /* -----1----- */
       let h1 = document.createElement('h1');
       let body = document.body;
       h1.innerText = 'Exercício 5.2 - JavaScript DOM';
-      body.appendChild(h1)
+      body.appendChild(h1);
+      /* -----2----- */
+      let div1 = document.createElement('div');
+      div1.setAttribute("class", "main-content");
+      body.appendChild(div1);
+      /* -----3----- */
+      let fatherDiv1 = document.querySelector('.main-content');
+      let div2 = document.createElement('div');
+      div2.setAttribute("class", "center-content");
+      div1.appendChild(div2);
+      /* -----4----- */
+      let fatherDiv2 = document.querySelector('.center-content');
+      let p = document.createElement('p');
+      p.innerText = 'Eu sou um parágrafo';
+      fatherDiv2.appendChild(p);
+      /* -----5----- */
+      let div3 = document.createElement('div');
+      div3.setAttribute("class", "left-content");
+      fatherDiv1.appendChild(div3);
+      /* -----6----- */
+      let div4 = document.createElement('div');
+      div4.setAttribute("class", "right-content");
+      fatherDiv1.appendChild(div4);
+      /* -----7----- */
+      let fatherDiv3 = document.querySelector('.left-content');
+      let img = document.createElement('img');
+      img.className = 'small-image';
+      img.setAttribute("src", "https://picsum.photos/200");
+      fatherDiv3.appendChild(img);
+      /* -----8----- */
+      let fatherDiv4 = document.querySelector('.right-content');
+      let ul = document.createElement('ul');
+      fatherDiv4.appendChild(ul);
+
+      let fatherUl = document.querySelector('ul');
+      for (let index = 1; index <= 10; index++) {
+        let li = document.createElement('li');
+        li.innerText = index;
+        fatherUl.appendChild(li);
+      }
+      /* -----9----- */
+      for (let index = 1; index <= 3; index++) {
+        let h3 = document.createElement('h3');
+        fatherDiv1.appendChild(h3);
+      }
     </script>
   </body>
 </html>
