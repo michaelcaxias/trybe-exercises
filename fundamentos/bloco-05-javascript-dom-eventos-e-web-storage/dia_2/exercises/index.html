@@ -74,7 +74,7 @@
       /* -----4----- */
       let fatherDiv2 = document.querySelector('.center-content');
       let p = document.createElement('p');
-      p.innerText = 'Eu sou um parágrafo';
+      p.innerText = "You and I have memories longer than the road that stretches out ahead";
       fatherDiv2.appendChild(p);
       /* -----5----- */
       let div3 = document.createElement('div');
@@ -103,9 +103,27 @@
       }
       /* -----9----- */
       for (let index = 1; index <= 3; index++) {
-        let h3 = document.createElement('h3');
+        h3 = document.createElement('h3');
         fatherDiv1.appendChild(h3);
       }
+      /* -----1.1----- */
+      h1.className = 'title';
+      /* -----1.2----- */
+      for (let index = 3; index <= 5; index++) {
+        let childNodes = div1.childNodes[index];
+        childNodes.className = 'description';
+      }
+      /* -----1.3----- */
+      fatherDiv1.removeChild(fatherDiv3);
+      /* -----1.4----- */
+      fatherDiv4.setAttribute("style", "margin-right: auto")
+      /* -----1.5----- */
+      fatherDiv1.setAttribute("style", "background-color: green")
+      /* -----1.6----- */
+      let liNine = ul.childNodes[8];
+      let liTen = ul.childNodes[9];
+      ul.removeChild(liNine);
+      ul.removeChild(liTen);
     </script>
   </body>
 </html>
