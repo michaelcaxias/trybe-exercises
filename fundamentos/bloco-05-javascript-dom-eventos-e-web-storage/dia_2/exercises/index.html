@@ -57,6 +57,7 @@
   </head>
   <body>
     <script>
+     /*  Neste código foi utilizado o setAttribute() via: https://developer.mozilla.org/pt-BR/docs/Web/API/Element/setAttribute */
       /* -----1----- */
       let h1 = document.createElement('h1');
       let body = document.body;
@@ -96,7 +97,8 @@
       fatherDiv4.appendChild(ul);
 
       let fatherUl = document.querySelector('ul');
-      for (let index = 1; index <= 10; index++) {
+      let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index of numbers) {
         let li = document.createElement('li');
         li.innerText = index;
         fatherUl.appendChild(li);
