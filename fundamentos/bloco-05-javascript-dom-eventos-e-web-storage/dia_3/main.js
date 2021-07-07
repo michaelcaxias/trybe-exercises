@@ -50,6 +50,8 @@ function resetText(event) {
 }
 
 firstDiv.addEventListener('dblclick', resetText);
+secondDiv.addEventListener('dblclick', resetText);
+thirdDiv.addEventListener('dblclick', resetText);
 // Não precisa passar o parâmetro dentro do addEventListener. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'divUm'.
