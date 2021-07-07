@@ -26,7 +26,7 @@ body {
     flex-flow: column wrap;
     height: 200px;
     justify-content: center;
-    margin: 2px;
+    margin: 5px;
     padding: 15px;
     text-align: center;
     transition: all 0.25s ease;

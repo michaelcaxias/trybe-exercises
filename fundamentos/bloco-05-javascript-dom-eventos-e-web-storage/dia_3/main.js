@@ -36,9 +36,9 @@ function mouseOver(){
   myWebpage.setAttribute("style", "color: #006dfb");
 }
 function mouseOut(){
-  myWebpage.setAttribute("style", "color: white");
+  myWebpage.setAttribute("style", "unset");
 }
-myWebpage.addEventListener("mouseover", mouseOver)
+myWebpage.addEventListener("mouseenter", mouseOver)
 myWebpage.addEventListener("mouseout", mouseOut)
 /* Segue abaixo um exemplo do uso de event.target: */
 
