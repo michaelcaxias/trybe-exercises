@@ -5,15 +5,17 @@
 
   main {
     background-color: #eee;
-    margin: 5%;
+    margin: 5% 15% 5%;
     border-radius: 10px;
     box-shadow: 0px 4px 25px grey, 1px 1px 0px #cdcdcd;
+    opacity: 95%;
   }
 
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image:url("https://cdn2.apstatic.com/photos/climb/114793163_medium_1532964323.jpg");
-    background-size: cover;
+    background-size:cover;
+    padding: 1%;
   }
 
   .superior-bar {
