@@ -33,12 +33,28 @@ function liDays() {
 liDays()
 /* ----Exercicio 2---- */
 let stringFeriados = 'Feriados'
-function holidays(string) {
+function holidaysButton(string) {
   let buttonFather = document.querySelector('.buttons-container');
   let button = document.createElement('button');
   button.id = 'btn-holiday';
   button.innerText = string;
   buttonFather.appendChild(button);
 }
-holidays(stringFeriados)
-/* ----Exercicio 3---- */
+holidaysButton(stringFeriados)
+/* ----Exercicio 3---- */ 
+function styleHolidays() {
+  let holidaysAttribute = document.querySelectorAll('.holiday')
+  for (let index = 0; index < holidaysAttribute.length; index++) {
+    holidaysAttribute[index].setAttribute("style", "background: rgb(12, 206, 12)")
+  }
+}
+function undoStyleHolidays() {
+  let holidaysAttribute = document.querySelectorAll('.holiday')
+  for (let index = 0; index < holidaysAttribute.length; index++) {
+    holidaysAttribute[index].setAttribute("style", "unset")
+  }
+}
+let button = document.querySelector('#btn-holiday')
+button.addEventListener("click", styleHolidays)
+button.addEventListener("dblclick", undoStyleHolidays)
+/* ----Exercicio 4---- */
