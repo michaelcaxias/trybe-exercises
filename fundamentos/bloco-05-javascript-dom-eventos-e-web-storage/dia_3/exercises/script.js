@@ -67,3 +67,4 @@ function fridaysButton(string) {
   buttonFather.appendChild(button);
 }
 fridaysButton(stringFriday)
+/* ----Exercicio 5---- */
