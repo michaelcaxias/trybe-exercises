@@ -42,21 +42,24 @@ function holidaysButton(string) {
 }
 holidaysButton(stringFeriados)
 /* ----Exercicio 3---- */ 
+
 function styleHolidays() {
-  let holidaysAttribute = document.querySelectorAll('.holiday')
-  for (let index = 0; index < holidaysAttribute.length; index++) {
-    holidaysAttribute[index].setAttribute("style", "background: rgb(12, 206, 12)")
-  }
-}
-function undoStyleHolidays() {
-  let holidaysAttribute = document.querySelectorAll('.holiday')
-  for (let index = 0; index < holidaysAttribute.length; index++) {
-    holidaysAttribute[index].setAttribute("style", "unset")
-  }
-}
-let button = document.querySelector('#btn-holiday')
-button.addEventListener("click", styleHolidays)
-button.addEventListener("dblclick", undoStyleHolidays)
+  let holidaysAttribute = document.querySelectorAll('.holiday');
+  let button = document.querySelector('#btn-holiday');
+  let backgroundColor = 'rgb(238,238,238)';
+  let newColor = 'rgb(12, 206, 12)';
+  button.addEventListener('click', function() {
+    for (let index = 0; index < holidaysAttribute.length; index++) {
+      if (holidaysAttribute[index].style.backgroundColor === newColor) {
+        holidaysAttribute[index].style.backgroundColor = backgroundColor
+      }
+      else {
+        holidaysAttribute[index].style.backgroundColor = newColor;
+      }
+    }
+  })
+};
+styleHolidays()
 /* ----Exercicio 4---- */
 let stringFriday = 'Sexta-feira'
 function fridaysButton(string) {
