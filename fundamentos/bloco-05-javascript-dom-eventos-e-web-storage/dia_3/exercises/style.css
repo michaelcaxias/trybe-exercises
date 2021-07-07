@@ -1,0 +1,195 @@
+
+* {
+    margin: 0;
+  }
+
+  main {
+    background-color: #eee;
+    margin: 5% 15% 5%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px grey, 1px 1px 0px #cdcdcd;
+    opacity: 95%;
+  }
+
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("https://cdn2.apstatic.com/photos/climb/114793163_medium_1532964323.jpg");
+    background-size:cover;
+    padding: 1%;
+  }
+
+  .superior-bar {
+    height: 35px;
+    background: linear-gradient(#e5e5e5, #cdcdcd);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset 0px 1px 0px #f4f4f4;
+  }
+
+  .superior-bar-button {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+  }
+
+  .superior-bar-button:nth-of-type(1){
+    background-color: #FF6259;
+  }
+
+  .superior-bar-button:nth-of-type(2){
+    background-color: #FFC13D;
+  }
+
+  .superior-bar-button:nth-of-type(3){
+    background-color: #17C94B ;
+  }
+
+  button {
+    margin: 20px;
+  }
+  
+  
+  #btn-add {
+    margin: 0;
+  }
+  
+  .buttons-container {
+    background-color: #eee;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #days {
+    margin: 0;
+  }
+  
+  #days li {
+    color: #777;
+    display: inline-block;
+    font-size:20px;
+    margin: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 13.6%;
+  }
+  
+  .input-container {
+    width: 49%;
+    height: 100px;
+    display: inline-block;
+  }
+  
+  input {
+    margin-top: 8px;
+  }
+  
+  label {
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    vertical-align: middle;
+  }
+  
+  .month-container {
+    background: linear-gradient(45deg, green, rgb(12, 206, 12));
+    padding: 40px 25px;
+    text-align: center;
+  }
+  
+  .month-container ul li {
+    color:white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  
+  .my-tasks {
+    clear: both;
+    float: left;
+    height: 100px;
+    vertical-align: middle;
+    width: 49%;
+  }
+  
+  .my-tasks div {
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    height: 35px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 35px;
+  }
+  
+  .my-tasks div:hover {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .my-tasks span {
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+  }
+  
+  .tasks-container {
+    height: 130px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .tasks-container h3 {
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-list-container {
+    display: inline-block;
+  }
+  
+  .task-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    vertical-align: middle;
+  }
+  
+  .week-days-container {
+    margin-left: 35px;
+  }
+  
+  .week-days li {
+    color: #666;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 13.6%;
+  }
+  
+  .week-days {
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0;
+  }
