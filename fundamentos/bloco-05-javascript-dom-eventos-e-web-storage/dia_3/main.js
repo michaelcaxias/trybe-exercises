@@ -27,7 +27,7 @@ input.addEventListener("keyup", changeElementText);
 redirecione para alguma página;
 4.1. Que tal redirecionar para seu portifólio? */
 function clickLink() {
-  window.open("https://michaelcaxias.github.io/", "_blank")
+  window.open("https://michaelcaxias.github.io/")
 }
 myWebpage.addEventListener("dblclick", clickLink)
 /* 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
