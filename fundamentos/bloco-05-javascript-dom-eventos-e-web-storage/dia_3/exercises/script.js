@@ -58,3 +58,12 @@ let button = document.querySelector('#btn-holiday')
 button.addEventListener("click", styleHolidays)
 button.addEventListener("dblclick", undoStyleHolidays)
 /* ----Exercicio 4---- */
+let stringFriday = 'Sexta-feira'
+function fridaysButton(string) {
+  let buttonFather = document.querySelector('.buttons-container');
+  let button = document.createElement('button');
+  button.id = 'btn-friday';
+  button.innerText = string;
+  buttonFather.appendChild(button);
+}
+fridaysButton(stringFriday)
