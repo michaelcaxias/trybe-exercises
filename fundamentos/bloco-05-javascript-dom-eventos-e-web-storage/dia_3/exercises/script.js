@@ -71,3 +71,20 @@ function fridaysButton(string) {
 }
 fridaysButton(stringFriday)
 /* ----Exercicio 5---- */
+function changeFridayDay(fridaysArray){
+  let fridaysList = document.querySelectorAll('.friday');
+  let fridayButton = document.querySelector('#btn-friday');
+  let newText = 'Sextou!'
+  fridayButton.addEventListener('click', function() {
+    for (let index = 0; index < fridaysList.length; index++) {
+      if (fridaysList[index].innerText !== newText) {
+        fridaysList[index].innerText = newText;
+      }
+      else {
+        fridaysList[index].innerText = fridaysArray[index];
+      }
+    }
+  });
+}
+let dezFridays = [ 4, 11, 18, 25 ];
+changeFridayDay(dezFridays)
