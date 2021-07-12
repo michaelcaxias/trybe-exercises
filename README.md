@@ -9,11 +9,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 2: Git & GitHub** ✔️
 
 **Bloco 3: Introdução - HTML & CSS** ✔️
-- [X] 3-5: _[Projeto Lessons Learned](https://www.betrybe.com/)_
+- [X] 3-5: _[Projeto Lessons Learned](https://michaelcaxias.github.io/projects/lessons-learned/)_
 
 **Bloco 4: Introdução - Introdução à JavaScript e Lógica de Programação** ✔️
 - [X] 4-5: _Projeto - Playground Functions_
 
 **Bloco 5: JavaScript: DOM, Eventos e Web Storage** 
-- [ ] 5-5: _Projeto - Arte com Pixels_
-- [ ] 5-6: _Projeto - Lista de Tarefas_
+- [ ] 5-5: _[Projeto - Arte com Pixels](https://michaelcaxias.github.io/projects/pixels-art/)_
+- [ ] 5-6: _[Projeto - Lista de Tarefas](https://michaelcaxias.github.io/projects/todo-list/)_
