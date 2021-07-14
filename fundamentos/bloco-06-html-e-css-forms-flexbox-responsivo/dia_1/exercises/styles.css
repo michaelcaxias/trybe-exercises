@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 10px 5px;
+}
+
+body {
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+#textArea {
+  border-radius: 10px;
+}
+
+.forms-style {
+  padding: 2%;
+  font-size: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+.forms-style input {
+  border-radius: 10px;
+  padding: 2px;
+  border-style: 1px solid grey;
+} 
+
+label {
+  background-color: rgba(255, 255, 255, 0.164);
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+#logo-trybe {
+  width: 200px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
