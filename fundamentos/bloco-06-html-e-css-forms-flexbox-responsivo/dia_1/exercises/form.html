@@ -9,28 +9,33 @@
 </head>
 <body>
   <form action="" method="get">
+<!-- Crie um <fieldset> para os seguintes dados pessoais: -->
     <fieldset class="forms-style">
       <label for="name">Nome:
-        <input type="text" id="name" placeholder="Digite seu Nome" maxlength="40" required>
+        <input type="text" id="name" name="name" placeholder="Digite seu Nome" maxlength="40" required>
       </label>
       <label for="email">E-mail:
-        <input type="text" id="email" placeholder="Digite seu E-mail" maxlength="50" required>
+        <input type="text" id="email"  name="email" placeholder="Digite seu E-mail" maxlength="50" required>
       </label>
       <label for="cpf">CPF:
-        <input type="text" id="cpf" placeholder="Digite seu CPF" maxlength="11" required>
+        <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" maxlength="11" required>
       </label>
       <label for="address">Endereço:
-        <input type="text" id="address" placeholder="Digite seu Endereço" maxlength="200" required>
+        <input type="text" id="address" name="address" placeholder="Digite seu Endereço" maxlength="200" required>
       </label>
       <label for="city">Cidade:
-        <input type="text" id="city" placeholder="Digite sua cidade" maxlength="28" required>
+        <input type="text" id="city" name="city" placeholder="Digite sua cidade" maxlength="28" required>
       </label>
       <label for="state-options">Estado:
         <select name="states" id="state-options" required>
         </select>
       </label>
+<!--  <label for="type" id="type-home">
+          <input type="radio" name="house" id="type-home">Casa
+          <input type="radio" name="apartment" id="type-home">Apartamento  
+      </label> -->
     </fieldset>
-
+<!-- Crie outro <fieldset> para dados do seu último emprego -->
     <fieldset class="forms-style fieldtwo">
       <label for="textArea"> Resumo do Currículo:
         <br>
@@ -38,17 +43,20 @@
       </label>
       <label for="role">Cargo:
         <br>
-        <input type="text" id="role" required>
+        <input type="text" name="role" id="role" placeholder="Digite seu cargo" required>
       </label>
-      <label for="role-description">Descrição do cargo:
+      <label for="role-description" >Descrição do cargo:
         <br>
-        <input type="text" id="role-description" required>
+        <input type="text" name="role-description id="role-description" placeholder="Digite uma descrição" required>
       </label>
       <label for="date">Data de início:
         <br>
         <input type="date" name="inicial-date" id="inicial-date" required>
       </label>
       <img src="https://pbs.twimg.com/profile_images/1412038025098444800/Kx6Wj0hl_400x400.jpg" alt="logo-trybe" id="logo-trybe">
+    </fieldset>
+    <fieldset class="forms-style">
+      <button type="submit" id="button">Enviar</button>
     </fieldset>
   </form>
   <script src="script.js"></script>
