@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 10px 5px;
+}
+
+body {
+  background-color: rgb(3, 107, 82);
+  color: white;
+}
+
+#textArea {
+  border-radius: 10px;
+}
+
+.forms-style {
+  padding: 2%;
+  font-size: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.forms-style input {
+  border-radius: 10px;
+  padding: 5px;
+  border-style: unset;
+} 
+
+label {
+  background-color: rgb(4, 139, 108);
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+}
+
+#logo-trybe {
+  width: 200px;
+  margin-left: 3%;
+  border-radius: 20px;
+}
+
+#button {
+  padding: 10px 30px;
+  margin-left: 45%;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 202, 155);
+  border-style: unset;
+  border-radius: 20px;
+}
+
+#button:hover {
+  box-shadow: 1px 1px 10px greenyellow;
+}
+
+#button:active {
+  background-color: aquamarine;
+  color: black;
+}
+
+#type-home {
+  display: flex;
+}
