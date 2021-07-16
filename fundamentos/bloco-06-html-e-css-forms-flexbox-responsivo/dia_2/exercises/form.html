@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercicio 6.1</title>
+  <title>Exercicio 6.2</title>
   <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <!-- -----CABEÇALHO----- -->
   <header class="text-center headerfooter shadow p-3 mb-5 rounded">
-    <img src="https://pbs.twimg.com/profile_images/1412038025098444800/Kx6Wj0hl_400x400.jpg" alt="logo-trybe" id="logo-trybe">
+    <img src="logo.png" alt="logo-trybe" id="logo-trybe">
     <h1 class="fs-1" >Formulário</h1>
-    <p class="fs-5"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+    <p class="fs-5"> #VQV #goTrybe #SouTryber #Forms</p>
   </header>
 <!-- -----FORMULÁRIO----- -->
   <main class="">
@@ -23,40 +25,40 @@
             <div class="">
               <label for="name">Nome:</label>
               <div class="input-group mb-3">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu Nome" maxlength="40" required>
+                <input type="text" class="value form-control" id="name" name="name" placeholder="Digite seu Nome" maxlength="40" required>
               </div>
       
               <label for="email">E-mail:</label>
               <div class="input-group mb-3">
-                <input type="text" id="email" class="form-control" name="email" placeholder="Digite seu E-mail" maxlength="50" required>
+                <input type="text" id="email" class="value form-control" name="email" placeholder="Digite seu E-mail" maxlength="50" required>
                 <span class="input-group-text" id="basic-addon2">@exemplo.com</span>
               </div>
               <div>
                 <label for="cpf">CPF:</label>
-                <input type="text" id="cpf" class="form-control" name="cpf" placeholder="Digite seu CPF" maxlength="11" required>  
+                <input type="text" id="cpf" class="value form-control" name="cpf" placeholder="Digite seu CPF" maxlength="11" required>  
               </div>
               <div>
                 <label for="address">Endereço:</label>
-                <input type="text" id="address" class="form-control" name="address" placeholder="Digite seu Endereço" maxlength="200" required>  
+                <input type="text" id="address" class="value form-control" name="address" placeholder="Digite seu Endereço" maxlength="200" required>  
               </div>
               <div>
                 <label for="city">Cidade:</label>
-                <input type="text" id="city" class="form-control" name="city" placeholder="Digite sua cidade" maxlength="28" required>  
+                <input type="text" id="city" class="value form-control" name="city" placeholder="Digite sua cidade" maxlength="28" required>  
               </div>
               <div>
                 <label for="state-options">Estado:</label>
-                <select name="states" class="form-select" id="state-options" required></select>
+                <select name="states" class="value form-select" id="state-options" required></select>
               </div>
       
               <label for="type-house">Tipo:</label>
       
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="type-home" id="house" checked>
+                <input class="value form-check-input" type="radio" name="type-home" id="house" checked>
                 <label class="form-check-label" for="house">Casa</label>
               </div>
       
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="type-home" id="apartment" >
+                <input class="value form-check-input" type="radio" name="type-home" id="apartment" >
                 <label class="form-check-label" for="apartment">Apartamento</label>
               </div>
             </div>
@@ -66,22 +68,22 @@
             <div class="">
               <label for="textArea"> Resumo do Currículo:</label>
               <div>
-                <textarea class="form-control" name="resume" id="textArea" cols="30" rows="10" maxlength="1000" required></textarea>  
+                <textarea class="value form-control" name="resume" id="textArea" cols="30" rows="10" maxlength="1000" required></textarea>  
               </div>
       
               <label for="role">Cargo:</label>
               <div>
-                <input type="text" class="form-control" name="role" id="role" placeholder="Digite seu cargo" required>
+                <input type="text" class="value form-control" name="role" id="role" placeholder="Digite seu cargo" required>
               </div>
       
               <label for="role-description" >Descrição do cargo:</label>
               <div>
-                <input type="text" class="form-control" name="role-description id="role-description" placeholder="Digite uma descrição" required>
+                <input type="text" class="value form-control" name="role-description id="role-description" placeholder="Digite uma descrição" required>
               </div>
       
               <label for="date">Data de início:</label>
               <div>
-                <input type="date" class="form-control" name="inicial-date" id="inicial-date" required>
+                <input type="text" placeholder="Selecione a data de ínicio" class="value form-control" name="inicial-date" id="datepicker" required>
               </div>
               <button type="submit" class="d-grid gap-2 col-6 mx-auto btn btn-primary" id="button">Enviar</button>
             </div>
@@ -94,5 +96,6 @@
     <p class="fs-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
   </footer>
   <script src="script.js"></script>
+  <script src="pikaday.js"></script>
 </body>
 </html>
