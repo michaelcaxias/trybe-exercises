@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu';
+  color: white;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
 .header {
   display: flex;
   background-color: rgb(52, 165, 90);
-  color: white;
   justify-content: space-around;
   align-items: center;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .gallery-content {
-  background-color: rgba(255, 255, 255, 0.301);
+  background: linear-gradient(35deg, rgba(255, 255, 255, 0.164), rgba(255, 255, 255, 0.411));
   box-shadow: 2px 3px 1px black;
   padding: 15px;
   margin: 5px;
@@ -60,7 +60,10 @@ body {
 
 #footer {
   display: flex;
-  padding: 10px;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   justify-content: center;
   align-items: flex-end;
   background-color: rgb(52, 165, 90);
