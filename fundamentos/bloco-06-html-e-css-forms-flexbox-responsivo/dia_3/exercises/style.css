@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(26, 150, 92);
+  background-color: rgb(0, 150, 80);
 }
 
 .header {
@@ -26,7 +26,6 @@ body {
 #main {
   display: flex;
   justify-content: center;
-  margin: 10px;
 }
 
 .tech-gallery {
@@ -43,7 +42,7 @@ body {
 
 .gallery-content {
   background: linear-gradient(35deg, rgba(255, 255, 255, 0.164), rgba(255, 255, 255, 0.411));
-  box-shadow: 2px 3px 1px black;
+  box-shadow: 2px 5px 1px black;
   padding: 15px;
   margin: 5px;
   border-radius: 30px;
@@ -61,7 +60,7 @@ body {
 #footer {
   display: flex;
   padding: 20px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
   justify-content: center;
