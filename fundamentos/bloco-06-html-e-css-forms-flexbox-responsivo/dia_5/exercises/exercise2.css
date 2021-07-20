@@ -7,6 +7,95 @@ html {
 }
 
 body {
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #90243B;
+  padding: 10px;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.title {
+  margin-left: 30%;
+  width: 35%;
+}
+
+svg {
+  filter: invert(100%);
+}
+
+.menu-dropdown {
+  position: relative;
+  display: flex;
+}
+
+.nav-menu {
+  display: none;
+  position: absolute;
+  margin: 0 -160px;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-dropdown:hover .nav-menu {
+  display: flex;
+}
+
+.hero {
+  height: 30em;
+  background: linear-gradient(35deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.671)),  url('https://a-static.mlcdn.com.br/1500x1500/alices-adventures-in-wonderland-evertype/umlivro2/4919781782011255/4e8f2e55e8a95f0053051d30abdab70b.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
   color: white;
-  background-color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+aside {
+  background: linear-gradient(34deg, #90243B, #c2304f);
+  color: white;
+  padding: 10px;
+  margin: 5%;
+  border-radius: 30px;
+}
+
+.main-content {
+  background-color: #ffbbc9;
+  padding: 10px;
+  margin: 30px auto;
+}
+
+p {
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: #420b17;
 }
