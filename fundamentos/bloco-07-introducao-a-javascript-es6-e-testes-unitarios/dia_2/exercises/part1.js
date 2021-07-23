@@ -53,8 +53,11 @@ console.log(customerInfo(order));
 // Modifique o valor total da compra para R$ 50,00.
 
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
+  let namePerson = order.name = 'Luiz Silva';
+  let orderPizza = Object.keys(order.order.pizza);
+  let drink = order.order.drinks.coke.type
+  return `Olá ${namePerson}, o total do seu pedido de ${orderPizza} e ${drink} é R$ 50,00.`
 
 }
 
-orderModifier(order);
+console.log(orderModifier(order));
