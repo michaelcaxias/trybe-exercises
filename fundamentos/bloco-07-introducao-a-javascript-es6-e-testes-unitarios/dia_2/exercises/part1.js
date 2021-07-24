@@ -42,7 +42,7 @@ const customerInfo = (order) => {
   let namePerson = order.name;
   let phone = order.phoneNumber;
   let addressPerson = Object.values(order.address);
-  return `Òlá ${theDeliveryPerson}, entrega para: ${namePerson} Telefone: ${phone}, ${addressPerson}".`
+  return `Òlá ${theDeliveryPerson}, entrega para: ${namePerson} Telefone: ${phone}, R. ${addressPerson[0]}" Nº: ${addressPerson[1]} AP: ${addressPerson[2]}.`
 
 }
 
@@ -56,7 +56,9 @@ const orderModifier = (order) => {
   let namePerson = order.name = 'Luiz Silva';
   let orderPizza = Object.keys(order.order.pizza);
   let drink = order.order.drinks.coke.type
-  return `Olá ${namePerson}, o total do seu pedido de ${orderPizza} e ${drink} é R$ 50,00.`
+  let discount = 10;
+  let payment = order.payment.total - discount
+  return `Olá ${namePerson}, o total do seu pedido de ${orderPizza} e ${drink} é R$ ${payment},00.`
 
 }
 
