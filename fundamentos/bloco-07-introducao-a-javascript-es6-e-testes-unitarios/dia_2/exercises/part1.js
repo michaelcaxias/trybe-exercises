@@ -57,8 +57,8 @@ const orderModifier = (order) => {
   let orderPizza = Object.keys(order.order.pizza);
   let drink = order.order.drinks.coke.type
   let discount = 10;
-  let payment = order.payment.total - discount
-  return `Olá ${namePerson}, o total do seu pedido de ${orderPizza} e ${drink} é R$ ${payment},00.`
+  let paymentTotal = order.payment.total - discount
+  return `Olá ${namePerson}, o total do seu pedido de ${orderPizza} e ${drink} é R$ ${paymentTotal},00.`
 
 }
 
