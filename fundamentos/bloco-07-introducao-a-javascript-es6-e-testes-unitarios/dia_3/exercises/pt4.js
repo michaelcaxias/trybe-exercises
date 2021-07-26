@@ -12,7 +12,7 @@ const expected = myFizzBuzz(60);
 const expected2 = myFizzBuzz(9);
 const expected3 = myFizzBuzz(25);
 const expected4 = myFizzBuzz(11);
-const expected5 = myFizzBuzz('abelha');
+const expected5 = myFizzBuzz('numero');
 
 assert.deepStrictEqual(expected, 'fizzbuzz');
 assert.deepStrictEqual(expected2, 'fizz');
