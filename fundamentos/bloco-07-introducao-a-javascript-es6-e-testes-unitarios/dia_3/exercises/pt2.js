@@ -11,6 +11,10 @@ function myRemove(arr, item) {
 }
 
 const expected = myRemove([1, 2, 3, 4], 3);
+const expected2 = myRemove([1, 2, 3, 4], 5);
+
 console.log(expected)
 
+assert.deepStrictEqual(expected, [1, 2, 4], 'Era esperado que o retorno fosse [1, 2, 4]')
 assert.notStrictEqual(expected, [1, 2, 3, 4], 'Era esperado que não houvesse o número 3')
+assert.deepStrictEqual(expected2, [1, 2, 3, 4], 'Era esperado que o retorno fosse [1, 2, 3, 4]')
