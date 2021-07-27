@@ -1,4 +1,4 @@
-/* const assert = require('assert'); */
+const assert = require('assert');
 
 const removeVowels = (word) => {
   const characters = word.split('');
@@ -24,4 +24,4 @@ const output = removeVowels(parameter);
 
 console.log(removeVowels(parameter))
 
-/* assert.deepStrictEqual(output, result); */
+assert.deepStrictEqual(output, result);
