@@ -2,14 +2,10 @@
 
 //replace ---> https://www.developintelligence.com/blog/2016/02/replace-spaces-underscores-javascript/
 
-const employee = (nameEmployee) => {
-  const eMail = () => `${nameEmployee.replace(' ', '_').toLowerCase()}@trybe.com`
-  const object = {
-    name: nameEmployee,
-    email: eMail()
-  }
-  return object
-};
+const employee = (nameEmployee) => ({
+  name: nameEmployee, 
+  email: `${nameEmployee.replace(' ', '_').toLowerCase()}@trybe.com`,
+});
 
 const newEmployees = () => {
   const employees = {
