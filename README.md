@@ -25,4 +25,4 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 7-4: _Projeto - JavaScript Testes Unitários_
 
 **Bloco 8: Higher Order Functions do JavaScript ES6** 
-- [X] 8-6: _Projeto - Zoo Functions_
+- [ ] 8-6: _Projeto - Zoo Functions_
