@@ -4,7 +4,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web ✔️
 
-<h1>Bloco 1: Introdução - Unix & Shell</h1> ✔️
+**Bloco 1: Introdução - Unix & Shell** ✔️
 
 **Bloco 2: Git & GitHub** ✔️
 
