@@ -9,33 +9,31 @@ const people = [
   { name: 'Bruna', age: 19 },
 ];
 
-people.sort((a, b) => {
-  if (a.age > b.age) {
-    return 1;
-  }
-  if (a.age < b.age) {
-    return -1;
-  }
-  if (a.age === b.age) {
-    return 0;
-  }
-});
+people.sort((a, b) =>  a.age - b.age );
+/* if (a.age < b.age) {
+  return 1;
+}
+if (a.age > b.age) {
+  return -1;
+}
+if (a.age === b.age) {
+  return 0;
+} */
 
 console.log(people);
 
 // ----- FIX 2 -----
 console.log('-----FIX 2-----');
 
-people.sort((a, b) => {
-  if (a.age < b.age) {
-    return 1;
-  }
-  if (a.age > b.age) {
-    return -1;
-  }
-  if (a.age === b.age) {
-    return 0;
-  }
-});
+people.sort((a, b) => b.age - a.age);
+/* if (a.age > b.age) {
+  return 1;
+}
+if (a.age < b.age) {
+  return -1;
+}
+if (a.age === b.age) {
+  return 0;
+} */
 
 console.log(people);
