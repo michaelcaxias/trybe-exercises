@@ -21,7 +21,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo** ✔️
 - [X] 6-6: _[Projeto - Trybewarts](https://michaelcaxias.github.io/projects/trybewarts/)_
 
-**Bloco 7: Introdução à JavaScript ES6 e Testes Unitários** 
+**Bloco 7: Introdução à JavaScript ES6 e Testes Unitários** ✔️
 - [X] 7-4: _Projeto - JavaScript Testes Unitários_
 
 **Bloco 8: Higher Order Functions do JavaScript ES6** 
