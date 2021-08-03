@@ -1,7 +1,7 @@
-// Faça uma lista com as suas frutas favoritas
+// lista de frutas favoritas
 const specialFruit = ['Maçã', 'Cupuaçu', 'Graviola', 'Bacuri'];
 
-// Faça uma lista de complementos que você gostaria de adicionar
+// lista de elementos adicionais
 const additionalItens = ['Banana', 'Melância', 'Maracuja'];
 
 const fruitSalad = (fruit, additional) => {
