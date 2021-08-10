@@ -23,8 +23,6 @@ const getCountry = (onSuccess, onFail) => {
   }, delay());
 };
 
-// Deve imprimir "Returned country is Brazil" no sucesso, ou "Error getting country: Country could not be found" em falha
 getCountry(countryName, printErrorMessage);
 
-// Deve imprimir "Brazil's currency is the Real" no sucesso, ou "Error getting country: Country could not be found" em falha
 getCountry(countryCurrency, printErrorMessage);
