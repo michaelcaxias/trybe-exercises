@@ -10,6 +10,7 @@ const getUser = () => {
     nationality: "Russian"
   };
   return userFullName(userToReturn)
+  // return userNationality(userToReturn)
 };
 
 assert.strictEqual(getUser(), "Hello! My name is Ivan Ivanovich"); 
