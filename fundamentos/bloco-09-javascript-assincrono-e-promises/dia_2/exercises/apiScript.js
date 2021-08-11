@@ -24,8 +24,10 @@ const fetchPromisse = () => {
   return new Promise((resolve, reject) => {
     console.log(randomNumber());
     (randomNumber() <= 8000)? resolve() : reject();
+
   }).then(() => [2, 3, 5, 10].map((divNumber) => randomNumber() / divNumber))
   .then((arrayOfNumbers) => arrayOfNumbers.reduce((acc, curr) => acc + curr ))
+  .then((result) => console.log(Math.floor(result)))
   .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
 }
 
