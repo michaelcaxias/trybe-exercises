@@ -1,4 +1,3 @@
-const assert = require('assert');
 
 function myFizzBuzz(num) {
   if (typeof num !== 'number') return false;
@@ -8,4 +7,4 @@ function myFizzBuzz(num) {
   return num;
 }
 
-// implemente seus testes aqui
+module.exports = myFizzBuzz;

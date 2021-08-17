@@ -1,4 +1,3 @@
-const assert = require('assert');
 
 function myRemove(arr, item) {
   let newArr = [];
@@ -10,4 +9,4 @@ function myRemove(arr, item) {
   return newArr;
 }
 
-// implemente seus testes aqui
+module.exports = myRemove;

@@ -14,5 +14,3 @@ const obj3 = {
   title: 'My Different Title',
   description: 'My Description',
 };
-
-// implemente seus testes aqui
