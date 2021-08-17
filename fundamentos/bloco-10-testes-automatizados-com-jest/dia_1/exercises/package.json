@@ -1,0 +1,15 @@
+{
+  "name": "exercises_dia1",
+  "version": "1.0.0",
+  "description": "Exercicios do dia 1 do bloco de Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

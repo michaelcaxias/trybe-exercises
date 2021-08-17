@@ -1,0 +1,15 @@
+{
+  "name": "dia_1_fix",
+  "version": "1.0.0",
+  "description": "primeiro arquivo jest criado",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
