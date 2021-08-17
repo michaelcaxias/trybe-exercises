@@ -1,4 +1,4 @@
-const challenges = require('../src/challenges2');
+const challenges = require('../challenges');
 
 describe('13 - Crie uma função de Bem vindo ao Bar da Trybe!', () => {
   it('Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string', () => {
