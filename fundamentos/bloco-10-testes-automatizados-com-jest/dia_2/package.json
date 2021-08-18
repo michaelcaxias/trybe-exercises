@@ -1,0 +1,15 @@
+{
+  "name": "dia_2",
+  "version": "1.0.0",
+  "description": "exercicios para o dia 2 do bloco 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "michael caxias",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
