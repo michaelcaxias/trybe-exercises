@@ -26,9 +26,9 @@ describe('3 - Verifique o funcionamento da função getUserName com async/await'
   it('Verifica se a chamada da função com um ID inexistente retorna um erro', async () => {
     expect.assertions(1);
     try {
-      await data.getUserName(3);
-    } catch (error) {
-      expect(error.message).toEqual('User with 3 not found.');
+      await data.getUserName(3);  
+    } catch (reject) {
+      expect(reject.message).toEqual('User with 3 not found.');
     }
   });
 

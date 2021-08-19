@@ -5,7 +5,7 @@ const uppercase = (str, callback) => {
   }, 500);
 };
 
-test("Testa se a função uppercase() com a string 'teste' retorna 'TESTE'", (done) => {
+test("1 - Testa se a função uppercase() com a string 'teste' retorna 'TESTE'", (done) => {
   uppercase('teste', (string) => {
     try {
       expect(string).toBe('TESTE');
