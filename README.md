@@ -31,6 +31,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-3: _[Projeto - Carrinho de Compras](https://michaelcaxias.github.io/projects/shopping-cart/)_
 
 **Bloco 10: Testes automatizados com Jest** 
-- [ ] 10-4: _Projeto - Jest Assíncrono e Mocking_
+- [X] 10-4: _Projeto - Jest Assíncrono e Mocking_
 
 ## Desenvolvimento Front-End
