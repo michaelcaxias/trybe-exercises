@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-const textJSX = (
-  <h1>Hello, JSX</h1>
-)
+import textJSX from './textJSX';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    { textJSX }
+    { textJSX() }
   </React.StrictMode>,
   document.getElementById('root')
 );
