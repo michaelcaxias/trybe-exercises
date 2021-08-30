@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const textJSX = (
+  <h1>Hello, JSX</h1>
+)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    { textJSX }
   </React.StrictMode>,
   document.getElementById('root')
 );
