@@ -24,7 +24,7 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
-.App {
+.pokemons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
