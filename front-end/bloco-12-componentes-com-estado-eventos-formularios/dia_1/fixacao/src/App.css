@@ -25,15 +25,6 @@
   color: white;
 }
 
-.App-header section {
-  display: flex;
-  gap: 2rem;
-}
-
-.App-header section button{
-  padding: 1rem;
-}
-
 .App-link {
   color: #61dafb;
 }
