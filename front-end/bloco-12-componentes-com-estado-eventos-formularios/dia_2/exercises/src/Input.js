@@ -2,9 +2,12 @@ import React from 'react'
 
 class Input extends React.Component {
   render() {
-    const {name, type} = this.props
+    const {name, type, inputText} = this.props
     return (
-      <input name={name} type={type} required/>
+      <label>
+        <p>{inputText}</p>
+        <input name={name} type={type} required/>
+      </label>
     );
   }
 }

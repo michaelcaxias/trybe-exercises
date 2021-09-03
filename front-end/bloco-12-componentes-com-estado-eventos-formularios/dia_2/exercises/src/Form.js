@@ -7,12 +7,12 @@ class Form extends React.Component {
     return (
       <form>
         <fieldset>
-          <Input name="name" type="text"/>
-          <Input name="email" type="email"/>
-          <Input name="cpf" type="text"/>
-          <Input name="address" type="text"/>
-          <Input name="city" type="text"/>
-          <ComboBox />
+          <Input inputText="Nome" name="name" type="text"/>
+          <Input inputText="E-mail" name="email" type="email"/>
+          <Input inputText="CPF" name="cpf" type="text"/>
+          <Input inputText="Endereço" name="address" type="text"/>
+          <Input inputText="Cidade" name="city" type="text"/>
+          <ComboBox inputText="Estado"/>
         </fieldset>
       </form>
     );

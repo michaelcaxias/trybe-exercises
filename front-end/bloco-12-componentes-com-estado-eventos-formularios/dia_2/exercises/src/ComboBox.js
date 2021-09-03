@@ -9,10 +9,14 @@ class ComboBox extends React.Component {
   }
 
   render() {
+    const { inputText } = this.props;
     return (
-      <select>
-        {this.createOptions()}
-      </select>
+      <label>
+        <p>{inputText}</p>
+        <select required>
+          {this.createOptions()}
+        </select>
+      </label>
     );
   }
 }
