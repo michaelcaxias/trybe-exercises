@@ -39,10 +39,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 11-3: _Projeto - Movie Cards Library_
 
 **Bloco 12 Componentes com Estado, Eventos e Formulários com React** ✔
-- [] 12-3: _Projeto - Movie Cards Library Stateful_
+- [ ] 12-3: _Projeto - Movie Cards Library Stateful_
 
 **Bloco 13 Ciclo de Vida de Componentes e React Router** 
-- [] 13-3: _Projeto - Movie Cards Library CRUD_
+- [ ] 13-3: _Projeto - Movie Cards Library CRUD_
 
 **Bloco 14 Metodologias Ágeis** 
-- [] 14-2: _Projeto - Frontend Online Store_
+- [ ] 14-2: _Projeto - Frontend Online Store_
