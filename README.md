@@ -30,7 +30,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 9: JavaScript Assíncrono e Promises** ✔️
 - [X] 9-3: _[Projeto - Carrinho de Compras](https://michaelcaxias.github.io/projects/shopping-cart/)_
 
-**Bloco 10: Testes automatizados com Jest** 
+**Bloco 10: Testes automatizados com Jest**  ✔️
 - [X] 10-4: _Projeto - Jest Assíncrono e Mocking_
 
 ## Desenvolvimento Front-End
+
+**Bloco 11: Introdução a React** ✔️
+- [X] 11-3: _Projeto - Movie Cards Library_
+
+**Bloco 12 Componentes com Estado, Eventos e Formulários com React** ✔
+- [] 12-3: _Projeto - Movie Cards Library Stateful_
+
+**Bloco 13 Ciclo de Vida de Componentes e React Router** 
+- [] 13-3: _Projeto - Movie Cards Library CRUD_
+
+**Bloco 14 Metodologias Ágeis** 
+- [] 14-2: _Projeto - Frontend Online Store_
