@@ -13,6 +13,8 @@ class Form extends React.Component {
           <Input inputText="Endereço" name="address" type="text"/>
           <Input inputText="Cidade" name="city" type="text"/>
           <ComboBox inputText="Estado"/>
+          <Input inputText="Casa" name="home" id="house" type="radio"/>
+          <Input inputText="Apartamento" name="home" id="apartment" type="radio"/>
         </fieldset>
       </form>
     );
