@@ -1,5 +1,6 @@
 import React from 'react';
 import ComboBox from './ComboBox';
+import TextArea from './TextArea';
 import Input from './Input';
 
 class Form extends React.Component {
@@ -15,6 +16,9 @@ class Form extends React.Component {
           <ComboBox inputText="Estado"/>
           <Input inputText="Casa" name="home" id="house" type="radio"/>
           <Input inputText="Apartamento" name="home" id="apartment" type="radio"/>
+        </fieldset>
+        <fieldset>
+          <TextArea inputText="Resumo do Currículo"/>
         </fieldset>
       </form>
     );
