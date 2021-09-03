@@ -1,0 +1,19 @@
+
+.pokemon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  font-size: medium;
+  border-radius: 20px;
+  width: 50%;
+  padding: 3% 0;
+  border: 1px solid rgb(0, 255, 85);
+  box-shadow: 1px 1px 15px black;
+}
+
+h2 {
+  background: -webkit-linear-gradient(35deg, rgb(255, 0, 221), rgb(0, 255, 34), rgb(255, 238, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
