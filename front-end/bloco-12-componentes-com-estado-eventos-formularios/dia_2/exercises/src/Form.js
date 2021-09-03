@@ -4,6 +4,18 @@ import TextArea from './TextArea';
 import Input from './Input';
 
 class Form extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      name: '',
+      email: '',
+      cpf: '',
+      address: '',
+      city: '',
+      select: '',
+      homeType: '',
+    }
+  }
   render() {
     return (
       <form>
