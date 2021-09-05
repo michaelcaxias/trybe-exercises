@@ -13,21 +13,22 @@ class Form extends React.Component {
       cpf: '',
       address: '',
       city: '',
-      select: '',
-      homeType: '',
+      state: '',
+      home: '',
     }
+    this.takeValues = this.takeValues.bind(this)
   }
+
+  takeValues(event) {
+    const { target } = event;
+    const { name } = target;
+    const value = target.type === 'radio' ? target.id : target.value;
+    this.setState({
+      [name]: value,
+    })
+  }
+
   render() {
-
-    const takeValues = (event) => {
-      const { target } = event;
-      const { name } = target;
-      const value = target.type === 'radio' ? target.checked : target.value;
-      this.setState({
-        [name]: value,
-      })
-    }
-
     return (
       <form>
         <fieldset>
@@ -36,7 +37,7 @@ class Form extends React.Component {
           <Input funct={this.takeValues} inputText="CPF" name="cpf" type="text"/>
           <Input funct={this.takeValues} inputText="Endereço" name="address" type="text"/>
           <Input funct={this.takeValues} inputText="Cidade" name="city" type="text"/>
-          <ComboBox funct={this.takeValues} inputText="Estado"/>
+          <ComboBox funct={this.takeValues} name="state" inputText="Estado"/>
           <section className="home-type">
             <Input funct={this.takeValues} inputText="Casa" name="home" id="house" type="radio"/>
             <Input funct={this.takeValues} inputText="Apartamento" name="home" id="apartment" type="radio"/>
