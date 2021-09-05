@@ -2,6 +2,7 @@ import React from 'react';
 import ComboBox from './ComboBox';
 import TextArea from './TextArea';
 import Input from './Input';
+import Button from './Button';
 import './Form.css'
 
 class Form extends React.Component {
@@ -15,6 +16,9 @@ class Form extends React.Component {
       city: '',
       state: '',
       home: '',
+      currResume: '',
+      role: '',
+      roleDescription: '',
     }
     this.takeValues = this.takeValues.bind(this)
   }
@@ -44,10 +48,11 @@ class Form extends React.Component {
           </section>
         </fieldset>
         <fieldset>
-          <TextArea inputText="Resumo do Currículo"/>
-          <TextArea inputText="Cargo"/>
+          <TextArea funct={this.takeValues} name="currResume" inputText="Resumo do Currículo"/>
+          <TextArea funct={this.takeValues} name="role" inputText="Cargo"/>
           <Input funct={this.takeValues} inputText="Descrição do cargo" name="roleDescription" type="text"/>
         </fieldset>
+        <Button infos={this.state}/>
       </form>
     );
   }
