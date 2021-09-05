@@ -9,11 +9,11 @@ class ComboBox extends React.Component {
   }
 
   render() {
-    const { inputText } = this.props;
+    const { inputText, funct } = this.props;
     return (
       <label>
         <p>{inputText}</p>
-        <select required>
+        <select onChange={funct} required>
           {this.createOptions()}
         </select>
       </label>
