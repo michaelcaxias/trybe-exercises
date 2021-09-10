@@ -32,6 +32,7 @@ class Button extends React.Component {
       displayInfos: 'show'
     })
   }
+  
   render() {
     return (
       <section>
