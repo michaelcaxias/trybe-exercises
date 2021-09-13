@@ -1,5 +1,5 @@
 // arquivo Users.js
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Users extends Component {
   render() {
