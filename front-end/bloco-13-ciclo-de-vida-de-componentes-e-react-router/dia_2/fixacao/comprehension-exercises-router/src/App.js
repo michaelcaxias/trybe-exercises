@@ -18,7 +18,7 @@ class App extends Component {
           <About />  
         </Route>
         <Route path="/users" >
-          <Users />  
+          <Users greetingsMessage="Good Morning!" />  
         </Route>
       </BrowserRouter>
     );
