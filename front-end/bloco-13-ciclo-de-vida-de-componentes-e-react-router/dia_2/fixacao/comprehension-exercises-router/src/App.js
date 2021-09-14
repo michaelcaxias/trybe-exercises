@@ -14,18 +14,12 @@ class App extends Component {
         <Link to="/users">Users</Link>
         <Link to="/strict-access">Strict Access</Link>
         <Switch>
-          <Route 
-            path="/users/:id"
-            render={(props) => (
-              <Users {...props} greetingsMessage="Good Morning!" />
-            )}
-          />
-          <Route
-            path="/strict-access"
-            render={ () => (
-              <StrictAccess user={ { username: 'joao', password: '1234' } } />
-            )}
-          />
+          <Route path="/users/:id" render={(props) => (
+            <Users {...props} greetingsMessage="Good Morning!" />
+          ) }/>
+          <Route path="/strict-access" render={() => (
+            <StrictAccess user={ {username: 'joao', password: '1234'} } />
+          )} />
           <Route path="/about" component={ About } />
           <Route path="/" component={ Home }/>
         </Switch>
