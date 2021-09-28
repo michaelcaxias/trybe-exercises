@@ -1,8 +1,7 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
-import Digimon from './Digimon';
 
 describe('Teste da aplicação toda', () => {
   it('Verifica se o App é renderizado', async () => {
@@ -47,5 +46,30 @@ describe('Teste da aplicação toda', () => {
     expect(fetchApi).toBeCalledTimes(1);
     expect(fetchApi).toBeCalledWith('https://digimon-api.vercel.app/api/digimon/name/garbagemon');
 
-  }); 
+  });
+  it('Verifica se é retornado na tela uma mensagem de erro caso tenha digitado um Digimon Inexistente', async () => {
+    render(<App />);
+    const errorMsg = {
+      ErrorMsg: "Digimon is not a Digimon in our database."
+      }
+    
+    const fetchApi = global.fetch = jest.fn(() => Promise.resolve({
+       json: () => Promise.resolve(errorMsg),
+    }))
+    
+    const inputSearch = screen.getByTestId('search-input');
+    expect(inputSearch).toHaveValue('');
+    userEvent.type(inputSearch, 'Digimon');
+    expect(inputSearch).toHaveValue('Digimon');
+
+    const button = screen.getByTestId('search-button');
+    userEvent.click(button);
+
+    await screen.findByRole('heading', { name: 'Digimon is not a Digimon in our database.' });
+    const errorText = screen.getByText('Digimon is not a Digimon in our database.')
+    expect(errorText).toBeInTheDocument();
+    expect(fetchApi).toBeCalledTimes(1);
+    expect(fetchApi).toBeCalledWith('https://digimon-api.vercel.app/api/digimon/name/Digimon');
+  });
+  
 });
