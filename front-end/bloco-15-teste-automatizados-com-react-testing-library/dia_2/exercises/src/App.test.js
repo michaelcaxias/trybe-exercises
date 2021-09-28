@@ -71,5 +71,18 @@ describe('Teste da aplicação toda', () => {
     expect(fetchApi).toBeCalledTimes(1);
     expect(fetchApi).toBeCalledWith('https://digimon-api.vercel.app/api/digimon/name/Digimon');
   });
-  
+  it('Verifica se é retornado na tela uma mensagem de erro caso nada tenha sido digitado na pesquisa', async () => {
+    render(<App />);
+    const inputSearch = screen.getByTestId('search-input');
+    expect(inputSearch).toHaveValue('');
+
+    userEvent.type(inputSearch, '');
+    expect(inputSearch).toHaveValue('');
+
+    const button = screen.getByTestId('search-button');
+    userEvent.click(button);
+
+    expect(global.fetch).toBeCalledTimes(1);
+  });
+
 });
