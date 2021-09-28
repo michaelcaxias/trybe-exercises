@@ -47,7 +47,7 @@ describe('Teste da aplicação toda', () => {
     expect(fetchApi).toBeCalledWith('https://digimon-api.vercel.app/api/digimon/name/garbagemon');
 
   });
-  it('Verifica se é retornado na tela uma mensagem de erro caso tenha digitado um Digimon Inexistente', async () => {
+  it('Verifica se é retornado na tela uma mensagem de erro caso tenha sido digitado um Digimon Inexistente', async () => {
     render(<App />);
     const errorMsg = {
       ErrorMsg: "Digimon is not a Digimon in our database."
@@ -65,8 +65,7 @@ describe('Teste da aplicação toda', () => {
     const button = screen.getByTestId('search-button');
     userEvent.click(button);
 
-    await screen.findByRole('heading', { name: 'Digimon is not a Digimon in our database.' });
-    const errorText = screen.getByText('Digimon is not a Digimon in our database.')
+    const errorText = await screen.findByRole('heading', { name: 'Digimon is not a Digimon in our database.' });
     expect(errorText).toBeInTheDocument();
     expect(fetchApi).toBeCalledTimes(1);
     expect(fetchApi).toBeCalledWith('https://digimon-api.vercel.app/api/digimon/name/Digimon');
