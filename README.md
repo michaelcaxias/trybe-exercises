@@ -42,7 +42,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 12-3: _Projeto - Movie Cards Library Stateful_
 
 **Bloco 13 Ciclo de Vida de Componentes e React Router** ✔️
-- [X] 13-3: _Projeto - Movie Cards Library CRUD_
+- [X] 13-3: _Projeto - TrybeTunes_
 
 **Bloco 14 Metodologias Ágeis** ✔️
 - [X] 14-2: _Projeto - Frontend Online Store_
+
+**Bloco 15: Testes automatizados com React Testing Library** ✔️
+- [X] 15-4: _Projeto - Testes em RTL_
+
+**Bloco 16: Gerenciamento de estado com Redux** 
+- [ ] 16-6: _Projeto - Trybe Wallet_
+
+**Bloco 17: Projeto Jogo de Trivia** 
+- [ ] 17-1: _Projeto - Jogo de Trivia_
+
+**Bloco 18: Context API e React Hooks** 
+- [ ] 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
+
+**Bloco 19: Projeto App de Receitas** 
+- [ ] 19-1: _Projeto - App de Receitas_
