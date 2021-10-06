@@ -43,7 +43,10 @@ function reducer (state = ESTADO_INICIAL, action) {
   }
 }
 
-const store = Redux.createStore(reducer);
+const store = Redux.createStore(
+  reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+);
 
 PREVIOUS_COLOR.addEventListener('click', () =>  store.dispatch({ type: 'PREVIOUS_COLOR' }))
 NEXT_COLOR.addEventListener('click', () =>  store.dispatch({ type: 'NEXT_COLOR' }))
