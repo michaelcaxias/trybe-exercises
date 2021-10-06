@@ -50,14 +50,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 15: Testes automatizados com React Testing Library** ✔️
 - [X] 15-4: _Projeto - Testes em RTL_
 
-**Bloco 16: Gerenciamento de estado com Redux** 
-- [ ] 16-6: _Projeto - Trybe Wallet_
+**Bloco 15(2): Gerenciamento de estado com Redux** 
+- [ ] 15-6: _Projeto - Trybe Wallet_
 
-**Bloco 17: Projeto Jogo de Trivia** 
-- [ ] 17-1: _Projeto - Jogo de Trivia_
+**Bloco 16: Projeto Jogo de Trivia** 
+- [ ] 16-1: _Projeto - Jogo de Trivia_
 
-**Bloco 18: Context API e React Hooks** 
-- [ ] 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
+**Bloco 17: Context API e React Hooks** 
+- [ ] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
-**Bloco 19: Projeto App de Receitas** 
-- [ ] 19-1: _Projeto - App de Receitas_
+**Bloco 18: Projeto App de Receitas** 
+- [ ] 18-1: _Projeto - App de Receitas_
