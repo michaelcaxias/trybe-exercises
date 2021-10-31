@@ -45,7 +45,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 13-3: _Projeto - TrybeTunes_
 
 **Bloco 14 Metodologias Ágeis** ✔️
-- [X] 14-2: _Projeto - Frontend Online Store_
+- [X] 14-2: _[Projeto - Frontend Online Store](https://michaelcaxias.github.io/twelve-store-project/)_
 
 **Bloco 15: Testes automatizados com React Testing Library** ✔️
 - [X] 15-4: _Projeto - Testes em RTL_
