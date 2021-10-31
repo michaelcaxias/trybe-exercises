@@ -51,13 +51,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 15-4: _Projeto - Testes em RTL_
 
 **Bloco 15(2): Gerenciamento de estado com Redux** 
-- [ ] 15-6: _Projeto - Trybe Wallet_
+- [X] 15-6: _Projeto - Trybe Wallet_
 
 **Bloco 16: Projeto Jogo de Trivia** 
-- [ ] 16-1: _Projeto - Jogo de Trivia_
+- [X] 16-1: _Projeto - Jogo de Trivia_
 
 **Bloco 17: Context API e React Hooks** 
-- [ ] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
+- [X] 17-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 **Bloco 18: Projeto App de Receitas** 
 - [ ] 18-1: _Projeto - App de Receitas_
