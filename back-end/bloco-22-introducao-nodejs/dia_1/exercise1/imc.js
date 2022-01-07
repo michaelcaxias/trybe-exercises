@@ -4,7 +4,7 @@ const weight = parseInt(readlineSync.questionInt('Enter your weight in kg: '));
 const height = parseInt(readlineSync.questionInt('Enter your height in meters: '));
 
 const calculateBMI = () => {
-    const bmi = parseInt((weight / (height * height)) * 10000);
+    const bmi = parseInt((weight / (height ** 2)) * 10000);
     console.log(`Your BMI is: ${bmi}`);
     if (bmi < 18.5) {
         console.log('You are underweight');
