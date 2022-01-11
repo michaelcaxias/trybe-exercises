@@ -26,10 +26,10 @@ describe("Verifica se a função checkValue está funcionando corretamente", () 
 });
 
 describe("Verifica função writeSpecificContet", () => {
-  beforeEach(() => {
+  before(() => {
     sinon.stub(fs, "writeFile");
   })
-  afterEach(() => {
+  after(() => {
     fs.writeFile.restore();
   })
   it("Verifica se o valor do parâmetro é uma string", async () => {
