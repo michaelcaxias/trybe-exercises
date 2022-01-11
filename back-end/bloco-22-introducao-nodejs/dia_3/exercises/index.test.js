@@ -14,4 +14,7 @@ describe("Verifica se a função checkValue está funcionando corretamente", () 
     expect(checkValue(0)).to.be.a("string");
     expect(checkValue(0)).to.be.equal("neutro");
   });
+  it("Verifica se a função recebe apenas números", () => {
+    expect(checkValue('string')).to.be.equal('o valor deve ser um número');
+  });
 });
