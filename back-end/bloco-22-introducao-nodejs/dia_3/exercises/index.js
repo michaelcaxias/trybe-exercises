@@ -1,3 +1,5 @@
+const fs = require("fs").promises;
+
 const checkValue = (number) => {
   if (typeof number !== "number") {
     return "o valor deve ser um número";
@@ -7,4 +9,16 @@ const checkValue = (number) => {
   else return "neutro";
 };
 
-module.exports = checkValue;
+const writeSpecificContet = async (fileName, fileContent) => {
+  try {
+    await fs.writeFile(fileName, fileContent);
+    return "ok";
+  } catch (error) {
+    return "erro ao escrever no arquivo";
+  }
+};
+
+module.exports = {
+  checkValue,
+  writeSpecificContet
+};
