@@ -13,7 +13,6 @@ app.get("/cep/:cep", (req, res) => {
   if(validateCep(cep).error) {
     return res.status(200).send(validateCep(cep).error)
   }
-  return res.status(200).send(validateCep(cep))
 });
 
 app.listen(3000, () => {
