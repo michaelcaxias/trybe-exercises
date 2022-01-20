@@ -1,8 +1,8 @@
 const getCep = require("../models/getCep");
 
-const validateCep = (cep) => {
+const validateCep = async (cep) => {
   const validCep = /^[0-9]{8}$/;
-
+  
   if (!validCep.test(cep)) {
     return {
       error: {
@@ -11,10 +11,12 @@ const validateCep = (cep) => {
       },
     };
   }
-  if (!getCep(cep).length) {
+  if (getCep(cep).length === 0) {
     return { error: { code: "notFound", message: "CEP não encontrado" } };
   }
-  return getCep(cep);
+  const cepExists = await getCep(cep);
+  console.log(cepExists);
+  return cepExists;
 };
 
 module.exports = validateCep;

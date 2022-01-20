@@ -13,6 +13,20 @@
       "group": "nsei",
       "database": "model_example",
       "username": "root"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "askForPassword": true,
+      "driver": "MySQL",
+      "name": "asdas",
+      "group": "asdasd",
+      "database": "cep_lookup",
+      "username": "root"
     }
   ]
 }

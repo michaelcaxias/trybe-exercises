@@ -8,11 +8,12 @@ app.get("/ping", (req, res) => {
   res.status(200).json({ message: "pong!" });
 });
 
-app.get("/cep/:cep", (req, res) => {
+app.get("/cep/:cep", async (req, res) => {
   const { cep } = req.params;
   if(validateCep(cep).error) {
     return res.status(200).send(validateCep(cep).error)
   }
+  return res.status(200).send(await validateCep(cep));
 });
 
 app.listen(3000, () => {
