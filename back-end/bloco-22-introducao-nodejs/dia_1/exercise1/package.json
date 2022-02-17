@@ -1,0 +1,15 @@
+{
+  "name": "calc-imc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "imc": "node imc.js"
+  },
+  "keywords": [],
+  "author": "Michael Caxias",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
