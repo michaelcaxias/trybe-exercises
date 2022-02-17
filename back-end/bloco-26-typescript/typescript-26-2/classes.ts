@@ -53,4 +53,11 @@ const ferrari = new Car("Ferrari", Colors.Vermelha, 4);
 
 ferrari.turnOn();
 ferrari.speedUp();
+ferrari.turn(Directions.ESQUERDA);
 ferrari.turn(Directions.DIREITA);
+ferrari.speedUp();
+ferrari.turn(Directions.DIREITA);
+ferrari.turn(Directions.DIREITA);
+ferrari.speedUp();
+ferrari.stop();
+ferrari.turnOff();
