@@ -1,6 +1,6 @@
-import Colors from "./Colors";
-import Doors from "./Doors";
-import Directions from "./Directions";
+import Colors from "./enums/Colors";
+import Doors from "./enums/Doors";
+import Directions from "./enums/Directions";
 
 class Car {
   brand: string;

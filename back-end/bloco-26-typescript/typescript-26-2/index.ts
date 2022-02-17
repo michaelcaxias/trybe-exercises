@@ -1,6 +1,6 @@
 import { exit } from "process";
-import Months from "./Months";
-import Seasons from "./Seasons";
+import Months from "./enums/Months";
+import Seasons from "./enums/Seasons";
 
 const readlineSync = require("readline-sync");
 
