@@ -1,7 +1,8 @@
 type Slices  = 4 | 6 | 8;
+type Flavors = "Mussarela" | "Calabresa" | "Vegana" | "Doce";
 
 interface Pizza {
-    flavor: string,
+    flavor: Flavors,
     slices: Slices
 }
 
