@@ -1,8 +1,6 @@
 {
-  "extends": "@tsconfig/node12/tsconfig.json", // estendemos a configuração base para o Node 12
+  "extends": "@tsconfig/node14/tsconfig.json", // estendemos a configuração base para o Node 14
   "compilerOptions": {
-    "preserveConstEnums": true // Não apaga as declarações const enum no código gerado
+    "outDir": "./dist", // pasta onde nossos arquivos compilados serão salvos
   },
-  "include": ["src/**/*"], // incluimos na compilação todos os arquivos dentro do diretório "src"
-  "exclude": ["node_modules", "**/*.spec.ts"] // excluímos da compilação a pasta node_modules e nossos arquivos de testes
 }
