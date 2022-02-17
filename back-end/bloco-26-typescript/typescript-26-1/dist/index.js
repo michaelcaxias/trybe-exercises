@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const exercises_1 = require("./exercises");
+console.log((0, exercises_1.greeter)('Maria'));
+console.log((0, exercises_1.personAge)('Maria', 40));
+console.log(`A soma do array é igual a ${(0, exercises_1.sumArray)([3, 6, 9])}`);
+console.log(`Triângulo de base 10cm e altura 25cm: ${(0, exercises_1.triangle)(10, 25)}cm²`);
+console.log(`Triângulo de base 5cm e altura 30cm: ${(0, exercises_1.triangle)(5, 30)}cm²`);
+console.log(`Triângulo de base 100cm e altura 200cm: ${(0, exercises_1.triangle)(10, 25)}cm²`);
+console.log(`Quadrado de lado 10cm: ${(0, exercises_1.square)(10)}cm²`);
+console.log(`Quadrado de lado 5cm: ${(0, exercises_1.square)(5)}cm²`);
+console.log(`Quadrado de lado 100cm: ${(0, exercises_1.square)(10)}cm²`);
+console.log(`Retângulo de base 10cm e altura 25cm: ${(0, exercises_1.rectangle)(10, 25)}cm²`);
+console.log(`Retângulo de base 5cm e altura 30cm: ${(0, exercises_1.rectangle)(5, 30)}cm²`);
+console.log(`Retângulo de base 100cm e altura 200cm: ${(0, exercises_1.rectangle)(10, 25)}cm²`);
