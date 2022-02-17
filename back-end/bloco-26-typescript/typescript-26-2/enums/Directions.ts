@@ -1,6 +1,6 @@
 enum Directions {
-  RIGHT = 'direita',
-  BACK = 'traseira',
+  DIREITA = 'direita',
+  ESQUERDA = 'traseira',
 }
 
 export default Directions;

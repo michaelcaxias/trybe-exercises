@@ -48,3 +48,9 @@ class Car {
     console.log(`Virando o carro para ${directions}`);
   }
 }
+
+const ferrari = new Car("Ferrari", Colors.Vermelha, 4);
+
+ferrari.turnOn();
+ferrari.speedUp();
+ferrari.turn(Directions.DIREITA);
