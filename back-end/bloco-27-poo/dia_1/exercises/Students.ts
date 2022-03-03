@@ -1,3 +1,4 @@
+import * as methods from './helpers';
 
 class Students {
   enroll: string;
@@ -14,15 +15,24 @@ class Students {
   maxLength = 6;
   
   sumNotes = () => {
-    const totalNotesTest = this.testNote.reduce((prev, curr) => prev + curr);
-    const totalNotesWork = this.testWork.reduce((prev, curr) => prev + curr);
-    return totalNotesTest + totalNotesWork;
+    const { testNote, testWork } = this;
+    const totalNotes = methods.sumArrays(testNote, testWork)
+    return totalNotes;
   }
 
   averageNotes = () => {
-    const totalNotesTest = this.testNote.reduce((prev, curr) => prev + curr);
-    const totalNotesWork = this.testWork.reduce((prev, curr) => prev + curr);
-    const totalAllNotes = totalNotesTest + totalNotesWork;
-    return totalAllNotes / this.maxLength;
+    const { testNote, testWork } = this;
+    const totalNotes = methods.sumArrays(testNote, testWork)
+    return totalNotes / this.maxLength;
   }
 }
+
+const studentMichael = new Students(
+  'm2425h0a2c',
+  'Michael Caxias',
+  [9, 8.5, 10, 7],
+  [8, 10]
+  );
+
+console.log('Average: ', studentMichael.averageNotes())
+console.log('Sum: ', studentMichael.sumNotes())
