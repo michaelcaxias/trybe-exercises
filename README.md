@@ -65,16 +65,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 19: Bloco X** ✔️
 - [X] 19-3: _[Bloco X]()_
 
-**Bloco 20 Bloco X** ✔️
+**Bloco 20: Bloco X** ✔️
 - [X] 20-3: _[Bloco X]()_
 
-**Bloco 21 Bloco X** ✔️
+**Bloco 21: Bloco X** ✔️
 - [X] 21-3:  _[Bloco X]()_
 
-**Bloco 22 Bloco X** ✔️
+**Bloco 22: Bloco X** ✔️
 - [X] 22-2: _[Bloco X]()_
 
-**Bloco 23: Testes automatizados com React Testing Library** ✔️
+**Bloco 23: Bloco X** ✔️
 - [X] 23-4:  _[Bloco X]()_
 
 **Bloco 24: Bloco X** ✔️
@@ -83,7 +83,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 **Bloco 25: Bloco X** ✔️
 - [X] 25-1: _[Bloco X]()_
 
-**Bloco 26: Context API e React Hooks** ✔️
+**Bloco 26: Bloco X** ✔️
 - [X] 26-4: _[Bloco X]()_
 
 **Bloco 27: Bloco X** 
