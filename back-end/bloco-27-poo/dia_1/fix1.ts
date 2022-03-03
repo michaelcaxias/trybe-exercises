@@ -34,7 +34,6 @@ class Tv {
     }
   }
 
-
 }
 
 const tv = new Tv(15, 5, '1280x720', ['HDMI', 'Wifi']);
