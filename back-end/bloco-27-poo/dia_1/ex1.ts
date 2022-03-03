@@ -1,3 +1,4 @@
+
 class Students {
   enroll: string;
   name: string;
@@ -10,6 +11,8 @@ class Students {
     this.testWork = testWork;
   }
 
+  maxLength = 6;
+  
   sumNotes = () => {
     const totalNotesTest = this.testNote.reduce((prev, curr) => prev + curr);
     const totalNotesWork = this.testWork.reduce((prev, curr) => prev + curr);
@@ -20,7 +23,6 @@ class Students {
     const totalNotesTest = this.testNote.reduce((prev, curr) => prev + curr);
     const totalNotesWork = this.testWork.reduce((prev, curr) => prev + curr);
     const totalAllNotes = totalNotesTest + totalNotesWork;
-    return totalAllNotes / 6;
+    return totalAllNotes / this.maxLength;
   }
-
 }
