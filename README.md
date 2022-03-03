@@ -29,28 +29,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 **Bloco 9: JavaScript Assíncrono e Promises** ✔️
 - [X] 9-3: _[Projeto - Carrinho de Compras](https://michaelcaxias.github.io/projects/shopping-cart/)_
-
-**Bloco 10: Testes automatizados com Jest**  ✔️
-- [X] 10-4: _Projeto - Jest Assíncrono e Mocking_
+- [X] 9-4: _Projeto - Jest Assíncrono e Mocking_
 
 ## Desenvolvimento Front-End
 
-**Bloco 11: Introdução a React** ✔️
-- [X] 11-3: _Projeto - Movie Cards Library_
+**Bloco 10: Introdução a React** ✔️
+- [X] 10-3: _Projeto - Movie Cards Library_
 
-**Bloco 12 Componentes com Estado, Eventos e Formulários com React** ✔️
-- [X] 12-3: _Projeto - Movie Cards Library Stateful_
+**Bloco 11 Componentes com Estado, Eventos e Formulários com React** ✔️
+- [X] 11-3: _Projeto - Movie Cards Library Stateful_
 
-**Bloco 13 Ciclo de Vida de Componentes e React Router** ✔️
-- [X] 13-3: _Projeto - TrybeTunes_
+**Bloco 12 Ciclo de Vida de Componentes e React Router** ✔️
+- [X] 12-3: _Projeto - TrybeTunes_
 
-**Bloco 14 Metodologias Ágeis** ✔️
-- [X] 14-2: _[Projeto - Frontend Online Store](https://michaelcaxias.github.io/twelve-store-project/)_
+**Bloco 13 Metodologias Ágeis** ✔️
+- [X] 13-2: _[Projeto - Frontend Online Store](https://michaelcaxias.github.io/twelve-store-project/)_
 
-**Bloco 15: Testes automatizados com React Testing Library** ✔️
-- [X] 15-4: _Projeto - Testes em RTL_
+**Bloco 14: Testes automatizados com React Testing Library** ✔️
+- [X] 14-4: _Projeto - Testes em RTL_
 
-**Bloco 15(2): Gerenciamento de estado com Redux** 
+**Bloco 15: Gerenciamento de estado com Redux** 
 - [X] 15-6: _Projeto - Trybe Wallet_
 
 **Bloco 16: Projeto Jogo de Trivia** 
