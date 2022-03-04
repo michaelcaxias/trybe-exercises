@@ -9,7 +9,8 @@ class Superclass {
 }
 
 class Subclass extends Superclass {
-  public sayHello() {
-   console.log('Olá, mundo!') 
-  }
 }
+
+const funcOut = (object: Superclass) => {
+  console.log(object.sayHello());
+}; 
