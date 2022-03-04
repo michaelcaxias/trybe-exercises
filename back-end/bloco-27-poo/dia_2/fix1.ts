@@ -12,5 +12,11 @@ class Subclass extends Superclass {
 }
 
 const funcOut = (object: Superclass) => {
-  console.log(object.sayHello());
+  object.sayHello();
 }; 
+
+const superClass = new Superclass;
+const subClass = new Subclass;
+
+funcOut(superClass);
+funcOut(subClass);
