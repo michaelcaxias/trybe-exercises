@@ -1,6 +1,6 @@
 import json
 
-superhero_file = open("superhero.txt", mode="w")
+superhero_file = open("superhero_json.txt", mode="w")
 
 with open('superheroes.json') as superheroes_json: # vai fechar automaticamente
   superheroes_list = json.load(superheroes_json)
