@@ -1,8 +1,9 @@
 class Liquidificador:
-    def __init__(self, cor, potencia, voltagem):
+    def __init__(self, cor, potencia, voltagem, preco):
         self.__cor = cor
         self.__potencia = potencia
         self.__voltagem = voltagem
+        self.preco = preco
         self.__ligado = False
         self.__velocidade = 0
         self.__velocidade_maxima = 3
@@ -23,7 +24,7 @@ class Liquidificador:
         return self.__ligado
 
 
-liquidificador_vermelho = Liquidificador("Vermelho", 250, 220)
+liquidificador_vermelho = Liquidificador("Vermelho", 250, 220, 800)
 liquidificador_vermelho.ligar(1)
 print("Esta ligado?", liquidificador_vermelho.esta_ligado())
 # Esta ligado? True

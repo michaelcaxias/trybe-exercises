@@ -1,5 +1,5 @@
-from encapsulamento_abstraçao import liquidificador_vermelho
-from encapsulamento_abstraçao import Liquidificador
+from liquidificador import liquidificador_vermelho
+from liquidificador import Liquidificador
 
 class Pessoa:
     def __init__(self, nome, saldo_na_conta):
