@@ -16,3 +16,6 @@ class Geladeira:
 
     def esta_ligado(self):
         return self.__ligado
+
+
+geladeira_eletrolux_azul = Geladeira(cor="Azul", preco=4600, marca="Eletrolux")
